@@ -1,0 +1,16 @@
+import React from 'react';
+import Head from 'next/head';
+
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Inicio | ig.news</title>
+      </Head>
+      <h1>
+        Hello World
+      </h1>
+    </>
+  )
+}
